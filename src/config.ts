@@ -93,12 +93,8 @@ export const siteConfig: SiteConfig = {
 	banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
-			desktop: [
-				"https://eopfapi.acofork.com/pic?img=ua",
-			], // 桌面横幅图片
-			mobile: [
-				"https://eopfapi.acofork.com/pic?img=ua",
-			], // 移动横幅图片
+			desktop: ["https://eopfapi.acofork.com/pic?img=ua"], // 桌面横幅图片
+			mobile: ["https://eopfapi.acofork.com/pic?img=ua"], // 移动横幅图片
 		}, // 使用本地横幅图片
 
 		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
@@ -196,12 +192,8 @@ export const siteConfig: SiteConfig = {
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
-		desktop: [
-			"https://eopfapi.acofork.com/pic?img=ua",
-		], // 桌面横幅图片
-		mobile: [
-			"https://eopfapi.acofork.com/pic?img=ua",
-		], // 移动横幅图片
+		desktop: ["https://eopfapi.acofork.com/pic?img=ua"], // 桌面横幅图片
+		mobile: ["https://eopfapi.acofork.com/pic?img=ua"], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
@@ -359,10 +351,10 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "https://twikoo.vercel.app",
-		lang: "en", // 设置 Twikoo 评论系统语言为英文
+		envId: "https://twikoo.510904.xyz/",
+		lang: "zh-CN", // 设置 Twikoo 评论系统语言为英文
 	},
 };
 
@@ -587,12 +579,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
 		welcome: "Welcome to CPer's Blog", // 欢迎词
-		touch: [
-			"你在做什么？",
-			"别碰我！",
-			"色狼！",
-			"不要这样欺负我！",
-		], // 触摸提示
+		touch: ["你在做什么？", "别碰我！", "色狼！", "不要这样欺负我！"], // 触摸提示
 		home: "点击返回主页", // 首页提示
 		skin: ["想看看我的新装吗？看起来超棒的~", "这是我的新装扮！"], // 换装提示
 		close: "QWQ 下次见~", // 关闭提示
@@ -619,3 +606,4 @@ export const umamiConfig = {
 <script defer src="XXXX.XXX" data-website-id="ABCD1234"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
+
