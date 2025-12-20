@@ -126,7 +126,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Hi", // 主页横幅主标题
+			title: " “Hello world”", // 主页横幅主标题
 
 			subtitle: [
 				"特別なことはないけど、君がいると十分です",
@@ -288,28 +288,6 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		{
-			name: "Others",
-			url: "#",
-			icon: "material-symbols:more-horiz",
-			children: [
-				{
-					name: "Projects",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				{
-					name: "Skills",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
-				{
-					name: "Timeline",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
-				},
-			],
-		},
 	],
 };
 
@@ -405,9 +383,9 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
 		"https://www.bilibili.uno/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
-	id: "14068943220", // 歌单ID
+	id: "473403182", // 歌单ID
 	server: "netease", // 音乐源服务器。有的meting的api源支持更多平台,一般来说,netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐
-	type: "playlist", // 播单类型
+	type: "song", // 播单类型
 };
 
 export const footerConfig: FooterConfig = {
@@ -616,7 +594,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 			"不要这样欺负我！",
 		], // 触摸提示
 		home: "点击返回主页", // 首页提示
-		skin: ["想看看我的新装吗？看起来超棒的~"], // 换装提示
+		skin: ["想看看我的新装吗？看起来超棒的~", "这是我的新装扮！"], // 换装提示
 		close: "QWQ 下次见~", // 关闭提示
 		link: "https://github.com/i5114514kf", // 关于链接
 	},

@@ -1,16 +1,16 @@
 ---
-title: Simple Guides for Mizuki
-published: 2024-04-01
-description: "How to use this blog template."
+title: Mizuki 简单指南
+published: 2025-12-18
+description: "如何使用这个博客模板。"
 image: "./cover.png"
-tags: ["Mizuki", "Blogging", "Customization"]
-category: Guides
+tags: ["Mizuki", "博客", "自定义"]
+category: 指南
 draft: false
 ---
 
 
 
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
+这个博客模板使用 [Astro](https://astro.build/) 构建。对于本指南中未提及的内容，您可以在 [Astro Docs](https://docs.astro.build/) 中找到答案。
 
 ## Front-matter of Posts
 
@@ -47,7 +47,7 @@ draft: false
 
 
 
-Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
+您的文章文件应放置在 `src/content/posts/` 目录中。您也可以创建子目录来更好地组织您的文章和资源。
 
 ```
 src/content/posts/
