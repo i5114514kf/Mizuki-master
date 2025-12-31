@@ -1,0 +1,9 @@
+{
+	"redirects": [
+		{
+			"source": "/BingSiteAuth.xml",
+			"destination": "https://pan.xxbyq.net/f/MzLJH1/BingSiteAuth.xml",
+			"statusCode": 302
+		}
+	]
+}
