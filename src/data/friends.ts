@@ -16,8 +16,16 @@ export const friendsData: FriendItem[] = [
 		id: 1,
 		title: "THW's Blog",
 		imgurl: "https://image.tianhw.top/avatar.webp",
-		desc: "Frontend Developer & Open-Source Enthusiast",
+		desc: "前途似海，来日方长",
 		siteurl: "https://tianhw.top/",
+		tags: ["Blog"],
+	},
+	{
+		id: 1,
+		title: "JasonShane",
+		imgurl: "https://xshan.dpdns.org/202510-hyTx.jpg",
+		desc: "七月初七，淮水竹亭",
+		siteurl: "https://blog.xshan.top",
 		tags: ["Blog"],
 	},
 ];
