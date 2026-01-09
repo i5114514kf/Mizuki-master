@@ -211,6 +211,19 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
+			name: "Friends",
+			url: "/friends/",
+			icon: "material-symbols:group",
+		},
+
+		{
+			name: "统计",
+			url: "https://cloud.umami.is/analytics/us/share/k1rR4VXVvnK01ETV",
+			external: true,
+			icon: "material-symbols:link",
+		},
+
+		{
 			name: "Links",
 			url: "/links/",
 			icon: "material-symbols:link",
@@ -234,57 +247,6 @@ export const navBarConfig: NavBarConfig = {
 					icon: "fa6-brands:bilibili",
 				},
 			],
-		},
-		{
-			name: "My",
-			url: "/content/",
-			icon: "material-symbols:person",
-			children: [
-				{
-					name: "Anime",
-					url: "/anime/",
-					icon: "material-symbols:movie",
-				},
-				{
-					name: "Diary",
-					url: "/diary/",
-					icon: "material-symbols:book",
-				},
-				{
-					name: "Gallery",
-					url: "/albums/",
-					icon: "material-symbols:photo-library",
-				},
-				{
-					name: "Devices",
-					url: "devices/",
-					icon: "material-symbols:devices",
-					external: false,
-				},
-			],
-		},
-		{
-			name: "About",
-			url: "/content/",
-			icon: "material-symbols:info",
-			children: [
-				{
-					name: "About",
-					url: "/about/",
-					icon: "material-symbols:person",
-				},
-				{
-					name: "Friends",
-					url: "/friends/",
-					icon: "material-symbols:group",
-				},
-			],
-		},
-		{
-			name: "统计",
-			url: "https://cloud.umami.is/analytics/us/share/k1rR4VXVvnK01ETV",
-			external: true,
-			icon: "material-symbols:link",
 		},
 	],
 };
