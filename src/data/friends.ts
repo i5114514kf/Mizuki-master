@@ -23,7 +23,7 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 1,
 		title: "JasonShane",
-		imgurl: "https://xshan.dpdns.org/202510-hyTx.jpg",
+		imgurl: "https://xshan.dpdns.org/202602-xixX.jpeg",
 		desc: "七月初七，淮水竹亭",
 		siteurl: "https://blog.xshan.top",
 		tags: ["Blog"],
@@ -44,4 +44,3 @@ export function getShuffledFriendsList(): FriendItem[] {
 	}
 	return shuffled;
 }
-
