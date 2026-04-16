@@ -22,6 +22,7 @@ lang: ""
 - **一键主题切换**：支持深色模式与浅色模式切换。
 - **实时网络健康监测**：前端即时测速，可视化分级提醒。
 - **零成本维护**：利用 Cloudflare 的免费额度（KV + Workers）。
+- **PC/移动端排版优化**：自适应节点列表
 
 ## 使用教程
 
@@ -34,6 +35,7 @@ lang: ""
 
 点击一键部署按钮：  
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/i5114514kf/STUN-Panel)
+[备用一键部署按钮](https://deploy.workers.cloudflare.com/?url=https://github.com/i5114514kf/STUN-Panel)
 
 操作步骤：  
 1. 选择 KV 命名空间，点击 **新建**。  
