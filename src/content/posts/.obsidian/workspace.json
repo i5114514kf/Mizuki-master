@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "New Year.md",
+                "file": "STUN打洞自动重定向与管理面板.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "New Year"
+              "title": "STUN打洞自动重定向与管理面板"
             }
           }
         ]
@@ -184,5 +184,11 @@
     }
   },
   "active": "07a9117c48341d7b",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "imgs/2.png",
+    "我的计算机哥哥于勒.md",
+    "STUN打洞自动重定向与管理面板.md",
+    "imgs/1.png",
+    "New Year.md"
+  ]
 }
