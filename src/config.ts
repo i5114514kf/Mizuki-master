@@ -1,4 +1,4 @@
-﻿import type {
+import type {
 	AnnouncementConfig,
 	CommentConfig,
 	ExpressiveCodeConfig,
@@ -94,8 +94,8 @@ export const siteConfig: SiteConfig = {
 
 	banner: {
 		src: {
-			desktop: ["https://pic.elvish.me/ua"],
-			mobile: ["https://pic.elvish.me/ua"],
+			desktop: ["https://t.alcy.cc/ycy"],
+			mobile: ["https://t.alcy.cc/ycy"],
 		},
 		position: "center",
 		carousel: {
